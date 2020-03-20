@@ -27,4 +27,7 @@ void resetMatrix(int **matrix, int rows, int cols)
             }
         }
     }
+
+    free(rowsZero);
+    free(colsZero);
 }
