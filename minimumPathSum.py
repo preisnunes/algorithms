@@ -6,7 +6,7 @@
 # DP relation: dp(i,j) = grid(i,j) + min(dp(i-1, j), dp(i, j-1))
 #  
 
-def minPathSum(grid: List[List[int]]) -> int:
+def minPathSum(grid: list) -> int:
         
         if not grid or len(grid) == 0:
             return 0
