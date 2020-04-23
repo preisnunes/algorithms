@@ -1,3 +1,6 @@
+#Algorithm to find minimum in a rotated list
+#This algorithm contains a difference 
+
 import math
 
 def findMin(nums: list) -> int:
